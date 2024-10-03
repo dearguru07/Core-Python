@@ -27,13 +27,17 @@
 
 
 
-n=int(input('enter a number'))
-# n=4
-if n==5:
-    print('numbrt Five')
-elif n==6:
-    print('number six')   
-elif n<5:
-    print('lower value')     
-else:
-    print('invalid')
+# n=int(input('enter a number'))
+# # n=4
+# if n==5:
+#     print('numbrt Five')
+# elif n==6:
+#     print('number six')   
+# elif n<5:
+#     print('lower value')     
+# else:
+#     print('invalid')
+
+
+# n=2
+# if "Telugu":n==2 else: 
