@@ -48,3 +48,31 @@
 //     console.log("hello")
 // }
 
+// function OTP(){
+//     let otp=Math.floor(Math.random()*9999)
+//     console.log(otp)
+// }
+// OTP()
+
+// async function download(){
+//     let data=await fetch("https://type.fit/api/quotes")
+//     let originalData=await data.json()
+//     console.log(originalData)
+// }
+
+
+
+console.log('One...')
+console.log('Two...')
+
+let myPromise=new Promise((resolve,reject)=>{
+resolve()
+console.log('Threee')
+console.log('Four..')
+})
+myPromise.then(()=>{
+    console.log('Five..')
+    console('Six...')
+}).catch(()=>{
+    console.log('error code it is.......')
+})

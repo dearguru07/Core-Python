@@ -65,11 +65,11 @@
 
 
 
-# import pywhatkit as w
+import pywhatkit as w
 
-# phone_number="+919346860132"
-# msg=' hello guru'
-# time=8
-# mint=3
+phone_number="+919346860132"
+msg=' hello guru'
+time=8
+mint=3
 
-# w.sendwhatmsg(phone_number,msg,time,mint)
+w.sendwhatmsg(phone_number,msg,time,mint)

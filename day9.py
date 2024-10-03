@@ -74,21 +74,21 @@
 # file handling using class componets----------
 
 
-# class file():
-#     def __init__(self,x,y):
-#         self.name=x
-#         self.number=y
-#         with open('names.txt','a') as file:
-#             print('data is peinting')
-#             file.write(self.name+'\n')
-#             print('data is printed')
-#         with open('numbers.txt','a') as file:
-#             print('data is peinting')
-#             file.write(self.number+'\n')   
-#             print('data is printed')
-# x=str(input('enter name'))            
-# y=str(input('enter number'))            
-# ref=file(x,y)             
+class file():
+    def __init__(self,x,y):
+        self.name=x
+        self.number=y
+        with open('names.txt','a') as file:
+            print('data is peinting')
+            file.write(self.name+'\n')
+            print('data is printed')
+        with open('numbers.txt','a') as file:
+            print('data is peinting')
+            file.write(self.number+'\n')   
+            print('data is printed')
+x=str(input('enter name'))            
+y=str(input('enter number'))            
+ref=file(x,y)             
 
 
 # inheritence----------------------------

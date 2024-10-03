@@ -1,10 +1,14 @@
 # print('Hello world......')
 
+# numbers=1254
+# print(type(numbers))
 
 # x=1.25
-# x=125
-# print(x)
 # print(type(x))
+
+
+# intreprester --> it will take prgrm lngueg as input and converts into assembler languge--------
+
 
 # day------------2
 
