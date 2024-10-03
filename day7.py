@@ -71,6 +71,6 @@ phone_number='+918688174622'
 otp=randint(000000,999999)
 z=str(otp)
 msg='OTP is'+z +'pls dont share any one'
-hour=14
-mints=36
+hour=15
+mints=12
 pywhatkit.sendwhatmsg(phone_number,msg,hour,mints)
